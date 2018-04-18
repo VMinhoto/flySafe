@@ -3,11 +3,28 @@ HH				Imports
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 @import url('http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700');
 
+@font-face {
+    font-family: SF-Pro;
+    src: url("../fonts/SF-Pro-Text-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SF-Pro;
+    font-weight: bold;
+    src: url("../fonts/SF-Pro-Text-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SF-Pro;
+    font-weight: lighter;
+    src: url("../fonts/SF-Pro-Text-Light.otf") format("opentype");
+}
+
 /*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 HH				Global
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 body{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'SF-Pro';
     position: relative;
 }
 .top{
@@ -173,7 +190,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     width:100%;
     height:100%;
     overflow:visible;
-    background: #fff url('../img/Intersection.gif') no-repeat center center;
+    background: #000000 url('../img/Intersection.gif') no-repeat center center;
     background-size: 100px 100px;
     }
 
@@ -182,18 +199,23 @@ HH				Header
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 .header{
 	height: 100vh;
-	background: linear-gradient(50deg, rgb(81, 255, 182), rgb(87, 160, 255));
+	background: #FFFFFF;
     padding: 45px 0px;
 }
 #logo {
 	font-size: 80px;
-	letter-spacing: 10px;
-	font-weight: 100;
-	color: white;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	color: #000000;
 	display: inline-block;
 	padding: 0px;
-    float: left;
+    
 }
+#logo_image {
+    width: 100px;
+    height: auto;
+}
+
 a#logo:hover{
 	text-decoration: none;
 }
@@ -208,7 +230,7 @@ a#logo:hover{
 }
 .fixed {
     position: fixed;
-    background: rgb(87, 160, 255);
+    background: #ffc000;
     top: 0;
     z-index: 99;
     transition: 1s;
@@ -227,7 +249,7 @@ a#logo:hover{
 	border: none;
 	outline: none;
 	display: inline-block;
-	color: #fff;
+	color: #000000;
 	border-radius: 0px;
 	cursor: pointer;
 	background-color: transparent;
@@ -263,11 +285,14 @@ a#logo:hover{
     width: 180px;
     text-align: left;
     color: #333333;
-    border: 1px solid white;
+    border: 1px solid #333333;
     margin-right: 10px;
 }
+
+
+
 .btn.btn-download:hover{
-    color: #fff;
+    color: #dadee5;
     background-color: transparent;
 }
 
