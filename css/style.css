@@ -635,6 +635,7 @@ a.next{
 HH              Development Team
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 #team{
+    background: #eee;
     text-align: center;
     color: #333;
 }
@@ -705,16 +706,16 @@ ul.social-icon li a {
 HH 				Testimonial
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 #testimonial{
-	background: linear-gradient(50deg, rgb(81, 255, 182), rgb(87, 160, 255));
-    color: white;
+	background: white;
+    color: black;
     padding: 100px 0px;
     /*position: relative;*/
 }
 #testimonial h3{
-    color: white;
+    color: black;
 }
 #testimonial hr{
-    border-color: white;
+    border-color: black;
 }
 /*.item .test-img{
     width: 100px;
@@ -762,7 +763,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 #pricing{
     position: relative;
     height: 100%;
-    background: linear-gradient(50deg, rgb(81, 255, 182), rgb(87, 160, 255));
+    background: white;
 }
 ul.pricing-table {
     display:block;
