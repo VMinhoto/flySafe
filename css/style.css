@@ -199,7 +199,7 @@ HH				Header
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 .header{
 	height: 100vh;
-	background: #FFFFFF;
+	background: #eee;
     padding: 45px 0px;
 }
 #logo {
@@ -275,9 +275,13 @@ a#logo:hover{
 .banner-text{
     margin-top: 100px;
 }
+.starting h2{
+    color: #000000;
+}
+
 .starting p{
 	padding: 20px 0px;
-	color: #fff;
+	color: #000000;
 	line-height: 30px;
 }
 .btn.btn-download {
