@@ -29,8 +29,8 @@ body{
 }
 .top{
     display: none;
-    background: rgb(81, 255, 182);
-    color: #fff;
+    background: black;
+    color: #ffc000;
     padding: 5px 10px;
     font-size: 22px;
     position: fixed;
