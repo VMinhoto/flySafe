@@ -346,6 +346,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 #bigfeatures h2{
     text-align: center;
+    display: block;
 }
 .item-list-right li {
     padding:0 70px 20px 0;
@@ -419,7 +420,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     }
 }
 .animation-box {
-    /*display:inline-block;*/
+    display:inline-block;
     position:relative;
 }
 @-webkit-keyframes highlight-left {
