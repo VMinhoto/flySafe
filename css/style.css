@@ -657,7 +657,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 .img-hover{
     display: none;
     width: 200px;
-    height: 213px;
+    height: 200px;
     position: absolute;
     margin: 0px auto;
 }
@@ -670,7 +670,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 #team .icon-p{
     position: absolute;
     width: 30px;
-    top: 185px;
+    top: 171px;
     left: 185px;
 }
 #team .col-md-2:hover .img-hover{
