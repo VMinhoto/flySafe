@@ -94,7 +94,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 	top: 0;
 	left: 0;
     z-index: 9999;
-	background: linear-gradient(50deg, rgb(81, 255, 182), rgb(87, 160, 255));
+	background: #ffc000;
 }
 .overlay .overlay-close {
     width: 50px;
@@ -106,7 +106,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 	border: none;
 	background: url(../img/cross.png) no-repeat center center;
 	text-indent: 200%;
-	color: transparent;
+	color: #000000;
 	outline: none;
 	z-index: 100;
 }
@@ -136,13 +136,13 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 .overlay ul li a {
 	font-weight: 300;
 	display: block;
-	color: #fff;
+	color: #000000;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
 }
 .overlay ul li a:hover,
 .overlay ul li a:focus {
-	color: #e3fcb1;
+	color: #000000;
 }
 .overlay-hugeinc {
 	opacity: 0;
@@ -766,6 +766,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 HH              Pricing table
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
+
 #pricing{
     position: relative;
     height: 100%;
@@ -775,6 +776,7 @@ ul.pricing-table {
     display:block;
     width:100%;
 }
+
 ul.pricing-table:after {
     display:block;
     content:"";
@@ -909,7 +911,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     height: 100px;
     border-radius: 30px;
     border: 2px solid #fff;
-    color: #fff;
+    color: #000000;
     font-size: 40px;
     display: inline-block;
     margin-right: 20px;
@@ -919,7 +921,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     float: left;
 }
 .contact-item:hover i{
-    background-color: #39c;
+    background-color: #ffc000;
     transition: .8s;
     border: 2px solid #e7e7e7 !important;
     /*background: linear-gradient(90deg, rgb(81, 255, 182), rgb(87, 160, 255));*/
@@ -939,20 +941,16 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     width: 170px;
     height: 50px;
     border-radius: 0px;
-    color: white;
-    background-color: rgb(87, 160, 255);
+    color: black;
+    background-color: #ffc000;
     padding: 15px 10px;
     margin: 10px 30px;
-    border-color: rgb(87, 160, 255);
+    
     margin-bottom: 45px;
     text-transform: uppercase;
     font-weight: 700;
 }
-.btn-sub:hover{
-    background-color: rgb(81, 255, 182);
-    border-color: rgb(81, 255, 182);
-    color: white;
-    transition: .8s;
+
 }
 input[type="username"]:focus, input[type="email"]:focus, input[type="text"]:focus{
     border-color: rgb(81, 255, 182);
