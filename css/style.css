@@ -68,7 +68,7 @@ p{
 	font-size: 16px;
 }
 .wrapper{
-	padding: 75px 0px;
+	padding: 75px 0px 0px 0px;
 }
 
 .virticle-line{
@@ -82,7 +82,7 @@ p{
     width: 15px;
     border: 1px solid #888;
     border-radius: 100%;
-    margin: 0px auto 50px;
+    margin: 0px auto 0px;
 }
 /*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 HH 		Overlay style
@@ -379,9 +379,9 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     padding-bottom:0;
 }
 #bigfeatures .screen {
-    width: 400px;
+    height: 463px;
     max-width:110%;
-    height:auto;
+    width:auto;
 }
 #bigfeatures i {
     color:#41A1E1;
