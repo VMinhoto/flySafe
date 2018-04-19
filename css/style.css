@@ -68,21 +68,21 @@ p{
 	font-size: 16px;
 }
 .wrapper{
-	padding: 75px 0px 0px 0px;
+	padding: 75px 0px;
 }
 
 .virticle-line{
     height: 40px;
     width: 1px;
     background: #888;
-    margin: 15px auto 5px;
+    margin: 0px auto 0px;
 }
 .circle{
     height: 15px;
     width: 15px;
     border: 1px solid #888;
     border-radius: 100%;
-    margin: 0px auto 0px;
+    margin: 0px auto 50px;
 }
 /*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 HH 		Overlay style
@@ -343,6 +343,10 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     border-radius: 100%;
     padding-top: 12px;
 }
+
+#bigfeatures h2{
+    text-align: center;
+}
 .item-list-right li {
     padding:0 70px 20px 0;
     position:relative;
@@ -415,7 +419,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     }
 }
 .animation-box {
-    display:inline-block;
+    /*display:inline-block;*/
     position:relative;
 }
 @-webkit-keyframes highlight-left {
