@@ -1078,12 +1078,12 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
         border-right: 2px solid #888;
     }*/
     #contact i{
-        color: #9d9d9d;
+        color: #000000;
         border-color: #9d9d9d;
     }
     #contact .col-sm-6:hover i{
         background-color: #ffc000;
-        color: #fff;
+        color: #000000;
         border-color: #fff;
     }
     h3{
