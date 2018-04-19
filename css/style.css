@@ -1082,7 +1082,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
         border-color: #9d9d9d;
     }
     #contact .col-sm-6:hover i{
-        background-color: #39c;
+        background-color: #ffc000;
         color: #fff;
         border-color: #fff;
     }
@@ -1097,6 +1097,9 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     }
 }
 @media (max-width: 480px){
+    #logo_image{
+        display: none;
+    }
     h2{
         font-size: 35px;
     }
@@ -1196,6 +1199,9 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     }
 }
 @media (max-width: 320px){
+    #logo_image{
+        display: none;
+    }
     .overlay nav ul{
         margin-left: -20px;
     }
