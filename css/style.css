@@ -951,7 +951,6 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     font-weight: 700;
 }
 
-}
 input[type="username"]:focus, input[type="email"]:focus, input[type="text"]:focus{
     border-color: rgb(81, 255, 182);
     box-shadow: none;
