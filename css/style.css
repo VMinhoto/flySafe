@@ -32,7 +32,7 @@ body{
 .top{
     display: none;
     background: black;
-    color: #36B8F4;
+    color: #ffc000;
     padding: 5px 10px;
     font-size: 22px;
     position: fixed;
@@ -96,7 +96,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 	top: 0;
 	left: 0;
     z-index: 9999;
-	background: #36B8F4;
+	background: #ffc000;
 }
 .overlay .overlay-close {
     width: 50px;
@@ -232,7 +232,7 @@ a#logo:hover{
 }
 .fixed {
     position: fixed;
-    background: #36B8F4;
+    background: #ffc000;
     top: 0;
     z-index: 99;
     transition: 1s;
@@ -391,7 +391,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     width:auto;
 }
 #bigfeatures i {
-    color:#41A1E1;
+    color:#ffc000;
 }
 @media (max-width:1200px) and (min-width:767px) {
     #bigfeatures i {
@@ -923,7 +923,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     float: left;
 }
 .contact-item:hover i{
-    background-color: #36B8F4;
+    background-color: #ffc000;
     transition: .8s;
     border: 2px solid #e7e7e7 !important;
     /*background: linear-gradient(90deg, rgb(81, 255, 182), rgb(87, 160, 255));*/
@@ -944,7 +944,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     height: 50px;
     border-radius: 0px;
     color: black;
-    background-color: #36B8F4;
+    background-color: ##ffc000;
     padding: 15px 10px;
     margin: 10px 30px;
     
@@ -965,7 +965,7 @@ HH              Footer Section
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 #footer {
-    background-color: #36B8F4;
+    background-color: #ffc000;
     color:white;
     padding:40px 0;
 }
