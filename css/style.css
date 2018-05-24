@@ -1,19 +1,38 @@
 /*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 HH				Imports
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700');
+
+@font-face {
+    font-family: SF-Pro;
+    src: url("../fonts/SF-Pro-Text-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SF-Pro;
+    font-weight: bold;
+    src: url("../fonts/SF-Pro-Text-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SF-Pro;
+    font-weight: lighter;
+    src: url("../fonts/SF-Pro-Text-Light.otf") format("opentype");
+}
 
 /*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 HH				Global
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+
+
 body{
-	font-family: 'Pacifico', cursive;
+	font-family: 'SF-Pro';
     position: relative;
 }
 .top{
     display: none;
     background: black;
-    color: #ffc000;
+    color: #36B8F4;
     padding: 5px 10px;
     font-size: 22px;
     position: fixed;
@@ -77,7 +96,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 	top: 0;
 	left: 0;
     z-index: 9999;
-	background: #ffc000;
+	background: #36B8F4;
 }
 .overlay .overlay-close {
     width: 50px;
@@ -213,7 +232,7 @@ a#logo:hover{
 }
 .fixed {
     position: fixed;
-    background: #ffc000;
+    background: #36B8F4;
     top: 0;
     z-index: 99;
     transition: 1s;
@@ -904,7 +923,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     float: left;
 }
 .contact-item:hover i{
-    background-color: #ffc000;
+    background-color: #36B8F4;
     transition: .8s;
     border: 2px solid #e7e7e7 !important;
     /*background: linear-gradient(90deg, rgb(81, 255, 182), rgb(87, 160, 255));*/
@@ -925,7 +944,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     height: 50px;
     border-radius: 0px;
     color: black;
-    background-color: #ffc000;
+    background-color: #36B8F4;
     padding: 15px 10px;
     margin: 10px 30px;
     
@@ -946,7 +965,7 @@ HH              Footer Section
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 #footer {
-    background-color: #ffc000;
+    background-color: #36B8F4;
     color:white;
     padding:40px 0;
 }
